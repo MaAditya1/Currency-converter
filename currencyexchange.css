@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #c4aca1;
+}
+
+.container{
+    background: linear-gradient(30deg, #548763, #cfe0d8); /*Light gradient to give 3D effect*/
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 60vh;
+    width: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    border: 10px solid #c1b8bd;
+    border-radius: 10vmin;
+}
+h1{
+    text-align: center;
+    font-size: 5vmin;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+.box{
+    display: flex;
+    margin-top: 5vmin;
+    gap: 5vmin;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black;
+    border-radius: 2vmin; */
+}
+
+.from-box{
+    background-image: url('Wood Background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2vmin;
+    text-align: center;
+    font-size: 4vmin;
+    display: grid;     
+    border: 4px solid black;
+    border-radius: 2vmin;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+}
+.to-box{
+    background-image: url('Wood Background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2vmin;
+    text-align: center;
+    font-size: 4vmin;
+    display: grid;
+    border: 4px solid black;
+    border-radius: 2vmin;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+
+
+}
+h2{
+    /* background-color: #0c0c0c;
+    color: #fff; */
+    font-size: 3vmin;
+    border: 2px solid black;
+    border-radius: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), -2px -2px 4px rgba(255, 255, 255, 0.7);
+
+}
+.flag-img {
+    width: 4vmin;
+    margin-top: 2vmin;
+    margin-left: 5vmin;
+}
+#fromCurrency{
+    /* border: none; */
+    margin-top: 1vmin;
+    height: 4vmin;
+    width: 15vmin;
+}
+#toCurrency{
+    margin-top: 1vmin;
+    height: 4vmin;
+    width: 15vmin;
+}
+.amount-box{
+    margin-top: 4vmin;
+    font-size: 4vmin;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-size: 3vmin;
+    font-weight: 100;
+}
+#amount{
+    /* margin-top: 3vmin; */
+    text-align: center;
+    height: 6vmin;
+    width: 40vmin;
+    border: 1px solid black;
+    border-radius: 2vmin;
+    box-shadow: 5px 5px 10px rgba(250, 250, 250, 0.5);
+
+}
+#convertBtn{
+    margin-top: 4vmin;
+    text-align: center;
+    height: 6vmin;
+    width: 50vmin;
+    background-color: green;
+    color: white;
+    border-radius: 2vmin;
+}
+#result {
+    height: 5vmin;
+    margin-top: 5vmin;
+    font-size: 3vmin;
+    text-align: center;
+    /* border: 1px solid green; */
+    border-radius: 1vmin;
+    /* background-color: green; */
+}
